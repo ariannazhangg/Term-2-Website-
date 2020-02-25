@@ -1,23 +1,23 @@
 @font-face {
-	src: url('ScoutCond-Regular.otf');
-	font-family: scout;
+	 src: url('ScoutCond-Regular.otf');
+	 font-family: scout;
 }
 
- a:link {
- color: white ;
+a:link {
+     color: white ;
 }
 
 a:visited {
- color: #23529B;
+     color: #23529B;
 }
 
 a:active {
- color: white;
+     color: white;
 }
 
 a:hover {
- background-color: #0099CC ;
- color: white ;
+     background-color: #0099CC ;
+     color: white ;
 }
 
 
@@ -63,47 +63,90 @@ p, li  {
 	 line-height: 1.5em;
 }	
 
-img {
+img.yellow {
 	 float: right;
 	 margin-right: 25px;
 	 margin-bottom: 20px;
+	 width: 400px;
 }
 
+img.sneaky {
+	 float: right;
+	 margin-right: 25px;
+	 margin-bottom: 20px;
+	 width: 450px;
+}
 
-            .current {
-                 background-color: #3D434F;
+img.rbbow {
+	 float: center;
+	 width: 300px;
+	 margin-left: 300px;
+}
+
+.current {
+     background-color: #3D434F;
 }			
 ul {
-  list-style-type: none;
-  margin-left: 90px;
-  padding: 1px;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #bbb;
-  color: white;
-  text-align: center;
-  width: 900px;
-  
+     list-style-type: none;
+     margin-left: 80px;
+     padding: 1px;
+     overflow: hidden;
+     border: 1px solid #e7e7e7;
+     background-color: #bbb;
+     color: white;
+     text-align: center;
+     width: 995px;
+   
 }
 
 li {
-  float: left;
-  margin-left: 165px;
+     float: left;
+     margin-left: 125px;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;]
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;]
 }
 
 li a:hover:not(.active) {
-  background-color: #ddd;
+     background-color: #ddd;
 }
 
 li a.active {
-  color: white;
-  background-color: #4CAF50;
+     color: white;
+     background-color: #4CAF50;
 }
+
+		table, th, td {
+		     border-bottom: 3px solid pink;
+			 text-align: center;
+			 color: white;
+			 font-size: 20pt;
+			 }
+			 
+	    table {
+		    border-collapse: collapse;
+			width: 900px;
+			}
+			
+		tr:nth-child(even) {
+		    background-color: #AE95ED;
+			}
+			
+		td:hover {
+		    background-color: purple;
+			color: white;
+			}
+			
+		th, td {
+		    padding: 10px;
+			}
+			
+		th {
+            background-color: #DCEFFC;
+            color: #95EDE9;			
+		}
