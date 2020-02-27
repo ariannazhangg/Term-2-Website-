@@ -40,6 +40,7 @@ body    {
 	 padding: 50px;
 	 width: 900px;
 }
+
 	 
 h1  {
 	 font-family: scout;
@@ -83,6 +84,18 @@ img.rbbow {
 	 margin-left: 300px;
 }
 
+img.hostage {
+	 float: right;
+	 margin-right: 50px;
+	 margin-bottom: 20px;
+	 margin-left: 20px;
+}
+
+img.loading {
+	 float: center;
+	 margin-left: 150px;
+}
+
 .current {
      background-color: #3D434F;
 }			
@@ -122,7 +135,8 @@ li a.active {
 }
 
 		table, th, td {
-		     border-bottom: 3px solid pink;
+		     border-bottom: 3px solid #881111 ;
+			 border-right: 3px solid #881111;
 			 text-align: center;
 			 color: white;
 			 font-size: 20pt;
@@ -130,15 +144,20 @@ li a.active {
 			 
 	    table {
 		    border-collapse: collapse;
-			width: 900px;
+			width: 800px;
+			margin: auto;
 			}
 			
-		tr:nth-child(even) {
-		    background-color: #AE95ED;
+		.mode1{
+		    background-color: #CFDAD2;
 			}
 			
+		tr {
+		     background-color: #708C8E;
+		}
+		
 		td:hover {
-		    background-color: purple;
+		    background-color: #364445;
 			color: white;
 			}
 			
@@ -147,6 +166,6 @@ li a.active {
 			}
 			
 		th {
-            background-color: #DCEFFC;
-            color: #95EDE9;			
+            background-color: #1D6299 ;
+            color: #DCE8FF;			
 		}
