@@ -58,9 +58,9 @@ h1, h2  {
 }
 
 p, li  {
-	 text-align: left;
 	 color: white;
 	 font-size: 18pt;
+	 text-align: left;
 	 line-height: 1.5em;
 }	
 
@@ -96,17 +96,31 @@ img.loading {
 	 margin-left: 150px;
 }
 
+img.wow {
+	 float: right;
+	 margin-right: 50px;
+	 margin-bottom: 20px;
+	 margin-left: 20px;
+}
+
+img.walls {
+	 float: right;
+	 margin-right: 50px;
+	 margin-bottom: 20px;
+	 margin-left: 20px;
+}
+
 .current {
      background-color: #3D434F;
 }			
 ul {
+     background-color: #bbb;
+     border: 1px solid #e7e7e7;
+     color: white;
      list-style-type: none;
      margin-left: 80px;
      padding: 1px;
      overflow: hidden;
-     border: 1px solid #e7e7e7;
-     background-color: #bbb;
-     color: white;
      text-align: center;
      width: 995px;
    
@@ -118,8 +132,8 @@ li {
 }
 
 li a {
-     display: block;
      color: white;
+     display: block;
      text-align: center;
      padding: 14px 16px;
      text-decoration: none;]
@@ -137,9 +151,9 @@ li a.active {
 		table, th, td {
 		     border-bottom: 3px solid #881111 ;
 			 border-right: 3px solid #881111;
-			 text-align: center;
 			 color: white;
 			 font-size: 20pt;
+			 text-align: center;
 			 }
 			 
 	    table {
@@ -169,3 +183,27 @@ li a.active {
             background-color: #1D6299 ;
             color: #DCE8FF;			
 		}
+		
+		
+div.gallery {
+  margin: 20px;
+  border: 3px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 3px solid #061261;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
