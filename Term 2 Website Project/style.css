@@ -16,7 +16,7 @@ a:active {
 }
 
 a:hover {
-     background-color: #0099CC ;
+     background-color: #717AB8 ;
      color: white ;
 }
 
@@ -110,6 +110,11 @@ img.walls {
 	 margin-left: 20px;
 }
 
+img.crowd {
+	 float: center;
+	 margin-left: 250px;
+}
+
 .current {
      background-color: #3D434F;
 }			
@@ -197,8 +202,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+  width: 250px;
+  height: 150px;
 }
 
 div.desc {
