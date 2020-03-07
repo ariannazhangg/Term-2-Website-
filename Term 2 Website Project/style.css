@@ -53,7 +53,7 @@ h2  {
 }
 
 h1, h2  {
-	 color: #828F9F;
+	 color: rgb(128, 172, 227);
 	 text-shadow: 2px 2px 5px #515763 ;
 }
 
@@ -135,7 +135,7 @@ button{
 
 
 .current {
-     background-color: #3D434F;
+     background-color:  #3D434F;
 	 color: white;
 }			
 
@@ -155,15 +155,15 @@ button{
 			}
 			
 		.mode1{
-		    background-color: #CFDAD2;
+		    background-color: rgb(218, 61, 61);
 			}
 			
 		tr {
-		     background-color: #708C8E;
+		     background-color: rgb(106, 157, 189);
 		}
 		
 		td:hover {
-		    background-color: #364445;
+		    background-color: #dc3f23;
 			color: white;
 			}
 			
@@ -172,8 +172,8 @@ button{
 			}
 			
 		th {
-            background-color: #1D6299 ;
-            color: #DCE8FF;			
+            background-color: rgb(5, 99, 176) ;
+            color: white;			
 		}
 		
 		
@@ -205,12 +205,14 @@ div.desc {
 	background-color: #3D434F;
 	margin-bottom: 30px;
 	margin-right: 40px;
+	color: white;
 }
 
 .heehoo {
 	background-color: #3D434F;
 	margin-bottom: 30px;
 	margin-right: 40px;
+	color:white;
 }
 
 .margin {
@@ -226,14 +228,14 @@ button {
 .navbar {
 	overflow: hidden;
 	background-color: #bbb;
-	margin-left: 80px;
+	margin-left: 86px;
 	width: 1000px;
 	margin-bottom:15px;
   }
   
   .navbar a {
 	font-size: 27px;
-	color: #23529B;
+	color:  rgb(108, 152, 223);
 	text-align: center;
 	padding: 14px 18px;
 	text-decoration: none;
@@ -263,7 +265,7 @@ button {
   .dropdown .dropbtn {  
 	border: none;
 	outline: none;
-	color: #23529B;
+	color: rgb(128, 172, 227);
 	padding: 16px 18px;
 	background-color: inherit;
 	font-family: inherit;
@@ -287,7 +289,7 @@ button {
  .dropdown-content a {
 	text-align: left;
 	float: left;
-	color: #23529B;
+	color: rgb(128, 172, 227);
 	text-decoration: none;
 	display: block;
 	margin-right:10px;
